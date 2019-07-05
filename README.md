@@ -12,6 +12,10 @@ port 8080 should be free or open.
 
 How to run:
 
+in the project path RUN the below command, this will compile and create WAR file in target folder
+
+mvn clean install
+
 if you have the WAR file in /target/ 
 
 docker build -t Image_Name
