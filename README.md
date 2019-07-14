@@ -20,6 +20,6 @@ if you have the WAR file in /target/
 
 docker build -t Image_Name
 
-docker run -d -p 8080:8080 Image_Name
+docker run -d -p 8080:8080 Image_Name .
 
-in the browser open localhost:8080/mydockerapp/ you will see futher instructions 
+in the browser open localhost:8080/ you will see futher instructions 
