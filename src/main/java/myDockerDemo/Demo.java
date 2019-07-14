@@ -54,7 +54,7 @@ public class Demo {
     	  BufferedReader reader;
     	  try {
     		  System.out.print(System.getProperty("user.dir"));
-    		  reader = new BufferedReader(new FileReader(new File("config.property")));
+    		  reader = new BufferedReader(new FileReader(new File("/config.txt")));
     		  String line = reader.readLine();
     		  while(line!=null) {
     			  String[] config = line.split(" ",0);
