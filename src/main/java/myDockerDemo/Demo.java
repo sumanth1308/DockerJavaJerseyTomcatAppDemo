@@ -19,7 +19,7 @@ public class Demo {
 	
 	@GET
 	public String hello() {
-		return "URL Format: http://localhost:8080/myDockerDemo/v1/demo/User_Input{Digits}";
+		return "URL Format: http://localhost:8080/v1/demo/User_Input{Digits}";
 	}
 	@SuppressWarnings("serial")
 	HashMap<String, String> dic = new HashMap<String, String>() {{
@@ -54,7 +54,7 @@ public class Demo {
     	  BufferedReader reader;
     	  try {
     		  System.out.print(System.getProperty("user.dir"));
-    		  reader = new BufferedReader(new FileReader(new File("/config.txt")));
+    		  reader = new BufferedReader(new FileReader(new File("/usr/local/tomcat/config.txt")));
     		  String line = reader.readLine();
     		  while(line!=null) {
     			  String[] config = line.split(" ",0);
