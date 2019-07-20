@@ -78,7 +78,7 @@ public class Demo {
       public String getResult(boolean printResultInUpper) {
     	  String delimiter = "";
     	  String res="";
-    	  for (int i = 0; i< outputArray.size()-1;i++) {
+    	  for (int i = 0; i< outputArray.size();i++) {
     		  res = res + delimiter +  outputArray.get(i);
     		  delimiter = " ,";
     	  }
